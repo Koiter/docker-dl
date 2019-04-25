@@ -4,3 +4,4 @@ docker build -t jupyter/deeptest .
 docker run --rm -it -p 8888:8888 -v "(VOLUME)/GitHub/docker-dl/Notebook":/home/jovyan/work jupyter/deeptest
 # Open Jupyter Notebook server
 http://127.0.0.1:8888/?token=(TOKEN)
+# Use the deeptutorial notebook file to follow tutorial on https://www.tensorflow.org/tutorials/images/hub_with_keras
